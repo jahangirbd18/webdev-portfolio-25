@@ -4,16 +4,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Web Developers Portfolio-25</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/portfolio.css">
 </head>
-<body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-    </header>
-    <main>
-        
-    </main>
-    <footer>
+<body class="open-sans-normal">
+    <header class="header secondary-bg">       
+        <nav>
+            <h1 class="nav-title">Ma<span class="text-primary">r</span>y</h1>
+            <ul>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href=""><button  class="btn">Hire Me</button></a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                 <h4> Hi, I am </h4>
+                 <h1>Jahangir Hossain</h1>
+                 <p class="banner-description">
+                    I am a web developer with a
+                    passion for creating beautiful 
+                    and functional websites. 
+                    I have a strong background
+                     in HTML, CSS, and JavaScript,
+                      and I am always looking to 
+                      learn new technologies and
+                      improve my skills.
+                       I am a team player and 
+                       I enjoy collaborating with others to
+                        create amazing projects.
+                </p>
+                <button class="btn"> Download CV</button>
+                <button class="btn">Contact</button>
 
-    </footer>
+            </div>
+            <div class="banner-image">
+                <img src="images/hardy.png" alt="banner-image">
+            </div>
+        </div>
+            
+    </header>
+
+    <main>
+        <section class="about secondary-bg">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-description">
+            I am a web developer with a passion for creating
+             beautiful and functional websites. I have a 
+             strong background in HTML, CSS, and JavaScript,
+              and I am always looking to learn new technologies
+             and improve my skills. I am a team player and
+              enjoy collaborating with others to create 
+              amazing projects.
+        </p>
+<div class="about-items" >
+    <div class="about-item">
+        <p class="item-title">Name</p>
+        <p class="item-description"> Mary hardy</p>
+    </div>
+    <div class="about-item">
+        <p class="item-title">Address</p>
+        <p class="item-description">23, brooklin</p>
+    </div>
+    <div class="about-item">
+        <p class="item-title">Email</p>
+        <p class="item-description">Mary@hardy.com</p>
+    </div>
+    <div class="about-item">
+        <p class="item-title">Date of Birth</p>
+        <p class="item-description"> 01-05-97</p>
+    </div>
+</div>
+          
+<!--What I do Section Start-->>
+<section class="skills">    
+    <h3 class="section-title text-center">What I Do</h3>
+    <p class="section-description text-center">
+        I am a web developer with a passion for creating
+         beautiful and functional websites. I have a 
+         strong background in HTML, CSS, and JavaScript,
+          and I am always looking to learn new technologies
+         and improve my skills. I am a team player and
+          enjoy collaborating with others to create 
+          amazing projects.</p>
+</section>
+<div class="skills-container">
+    <!-- .skill*4>img+h4.skill-title+p.skill-description -->
+<div class="skill">
+    <img src="images/icons/js.png" alt="">
+    <h4 class="skill-title">Vanilla JavaScript</h4>
+    <p class="skill-description">
+        I am a web developer with a passion for creating
+         beautiful and functional websites. I have a 
+         strong background in HTML, CSS, and JavaScript.
+          
+    </p>
+</div>
+<div class="skill">
+    <img src="images/icons/react.png" alt="">
+    <h4 class="skill-title">React Expert</h4>
+    <p class="skill-description">
+        I am a web developer with a passion for creating
+         beautiful and functional websites. I have a 
+         strong background in HTML, CSS, and JavaScript.
+    </p>
+</div>
+<div class="skill">
+    <img src="images/icons/nodejs.png" alt="">
+    <h4 class="skill-title">Node js </h4>
+    <p class="skill-description">
+        I am a web developer with a passion for creating
+         beautiful and functional websites. I have a 
+         strong background in HTML, CSS, and JavaScript.
+    </p>
+</div>
+<div class="skill">
+    <img src="images/icons/mongo.png" alt="">
+    <h4 class="skill-title">Mongodb</h4>
+    <p class="skill-description">
+       I am a web developer with a passion for creating
+         beautiful and functional websites. I have a 
+         strong background in HTML, CSS, and JavaScript.
+
+    </p>
+</div>
+</div>
+    </main>
+
+<footer class="footer secondary-bg">    
+<div class="footer-column">
+        <h3 class="section-titlee"> Lets Connect</h3>
+         <p>
+        I am a web developer with a passion for creating
+         beautiful and functional websites. I have a 
+         strong background in HTML, CSS, and JavaScript.
+         </p>
+         <div>
+         <a href="#"><img src="images/icons/facebook.png" alt="facebook"></a>
+        <a href="#"><img src="images/icons/twitter.png" alt="twitter"></a>  
+        <a href="#"><img src="images/icons/instagram.png" alt="instagram"></a>
+        </div>
+</div>
+ <div class="footer-column">
+        <h3 class="section-titlee">Hi InBOX ME </h3>
+    <form action="">
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea><br>
+       <button class="btn" type="submit">Subscribe</button>
+   <form>
+ </div>
+    
+    
+</footer>
+ <p class="footer-text">Copyright &copy; 2024 by Mary Hardy. All rights reserved.</p>
 </body>
 </html>

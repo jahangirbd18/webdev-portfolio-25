@@ -1,0 +1,128 @@
+/* Nav Styles */
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner {
+   display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 230px;
+}
+.banner-image {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.btn{
+    background-color:#FD6E0A;
+    color:white;
+    padding:10px 20px;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:600;
+}
+.section-title{
+    font-size:30px;
+    font-weight:700;
+    margin-bottom:20px;
+    color:#333333;
+}
+
+.section-description{
+    font-size:18px;
+    }
+.header{
+    background-image:url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat:no-repeat,no-repeat;
+    background-position:top left, bottom right;
+    padding: 10px 50px ;
+    
+}
+.secondary-bg{
+    background-color:#8b7e7e;
+}
+.text-primary{
+    color:#FD6E0A;
+}
+nav {
+    display: flex;    
+}
+
+.nav-title {
+    font-size: 25px;
+    font-weight: 800;
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: auto;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.text-center{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: rgb(212, 0, 255);
+    padding: 10px;
+}
+.skill-description{
+    font-size: 16px;
+    margin-top: 10px;
+    color:#0f0e0e;
+    text-align: center;
+    padding: 10px;
+    background-color: aqua;
+}
+
+footer{
+    padding: 130px 230px;
+    display : flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    display: block;
+}
